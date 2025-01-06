@@ -1,0 +1,1 @@
+This repository demonstrates a common issue encountered when using the `useLocation` hook in React Router v6.  The problem arises when trying to access the navigation state (`location.state`) within a nested component that isn't directly receiving route parameters.  The solution showcases how to properly access the state using either prop drilling or the React Context API.
